@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3B7F129157F489D004F3012 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B7F128157F489D004F3012 /* UIKit.framework */; };
+		A3B7F12B157F489D004F3012 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B7F12A157F489D004F3012 /* Foundation.framework */; };
+		A3B7F12D157F489D004F3012 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B7F12C157F489D004F3012 /* CoreGraphics.framework */; };
+		A3B7F133157F489E004F3012 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B7F131157F489E004F3012 /* InfoPlist.strings */; };
+		A3B7F135157F489E004F3012 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F134157F489E004F3012 /* main.m */; };
+		A3B7F139157F489E004F3012 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F138157F489E004F3012 /* AppDelegate.m */; };
+		A3B7F13C157F489E004F3012 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B7F13A157F489E004F3012 /* MainStoryboard.storyboard */; };
+		A3B7F13F157F489E004F3012 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F13E157F489E004F3012 /* ViewController.m */; };
+		A3B7F147157F4B22004F3012 /* Length.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B7F146157F4B22004F3012 /* Length.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3B7F124157F489D004F3012 /* Laengenrechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Laengenrechner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B7F128157F489D004F3012 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3B7F12A157F489D004F3012 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3B7F12C157F489D004F3012 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3B7F130157F489E004F3012 /* Laengenrechner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Laengenrechner-Info.plist"; sourceTree = "<group>"; };
+		A3B7F132157F489E004F3012 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3B7F134157F489E004F3012 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3B7F136157F489E004F3012 /* Laengenrechner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Laengenrechner-Prefix.pch"; sourceTree = "<group>"; };
+		A3B7F137157F489E004F3012 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3B7F138157F489E004F3012 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3B7F13B157F489E004F3012 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A3B7F13D157F489E004F3012 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3B7F13E157F489E004F3012 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3B7F145157F4B22004F3012 /* Length.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Length.h; sourceTree = "<group>"; };
+		A3B7F146157F4B22004F3012 /* Length.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Length.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3B7F121157F489D004F3012 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B7F129157F489D004F3012 /* UIKit.framework in Frameworks */,
+				A3B7F12B157F489D004F3012 /* Foundation.framework in Frameworks */,
+				A3B7F12D157F489D004F3012 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3B7F119157F489D004F3012 = {
+			isa = PBXGroup;
+			children = (
+				A3B7F12E157F489E004F3012 /* Laengenrechner */,
+				A3B7F127157F489D004F3012 /* Frameworks */,
+				A3B7F125157F489D004F3012 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3B7F125157F489D004F3012 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B7F124157F489D004F3012 /* Laengenrechner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3B7F127157F489D004F3012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3B7F128157F489D004F3012 /* UIKit.framework */,
+				A3B7F12A157F489D004F3012 /* Foundation.framework */,
+				A3B7F12C157F489D004F3012 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3B7F12E157F489E004F3012 /* Laengenrechner */ = {
+			isa = PBXGroup;
+			children = (
+				A3B7F145157F4B22004F3012 /* Length.h */,
+				A3B7F146157F4B22004F3012 /* Length.m */,
+				A3B7F137157F489E004F3012 /* AppDelegate.h */,
+				A3B7F138157F489E004F3012 /* AppDelegate.m */,
+				A3B7F13A157F489E004F3012 /* MainStoryboard.storyboard */,
+				A3B7F13D157F489E004F3012 /* ViewController.h */,
+				A3B7F13E157F489E004F3012 /* ViewController.m */,
+				A3B7F12F157F489E004F3012 /* Supporting Files */,
+			);
+			path = Laengenrechner;
+			sourceTree = "<group>";
+		};
+		A3B7F12F157F489E004F3012 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3B7F130157F489E004F3012 /* Laengenrechner-Info.plist */,
+				A3B7F131157F489E004F3012 /* InfoPlist.strings */,
+				A3B7F134157F489E004F3012 /* main.m */,
+				A3B7F136157F489E004F3012 /* Laengenrechner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3B7F123157F489D004F3012 /* Laengenrechner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3B7F142157F489E004F3012 /* Build configuration list for PBXNativeTarget "Laengenrechner" */;
+			buildPhases = (
+				A3B7F120157F489D004F3012 /* Sources */,
+				A3B7F121157F489D004F3012 /* Frameworks */,
+				A3B7F122157F489D004F3012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Laengenrechner;
+			productName = Laengenrechner;
+			productReference = A3B7F124157F489D004F3012 /* Laengenrechner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3B7F11B157F489D004F3012 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A3B7F11E157F489D004F3012 /* Build configuration list for PBXProject "Laengenrechner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3B7F119157F489D004F3012;
+			productRefGroup = A3B7F125157F489D004F3012 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3B7F123157F489D004F3012 /* Laengenrechner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3B7F122157F489D004F3012 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B7F133157F489E004F3012 /* InfoPlist.strings in Resources */,
+				A3B7F13C157F489E004F3012 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B7F120157F489D004F3012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B7F135157F489E004F3012 /* main.m in Sources */,
+				A3B7F139157F489E004F3012 /* AppDelegate.m in Sources */,
+				A3B7F13F157F489E004F3012 /* ViewController.m in Sources */,
+				A3B7F147157F4B22004F3012 /* Length.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A3B7F131157F489E004F3012 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B7F132157F489E004F3012 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3B7F13A157F489E004F3012 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3B7F13B157F489E004F3012 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3B7F140157F489E004F3012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A3B7F141157F489E004F3012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3B7F143157F489E004F3012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Laengenrechner/Laengenrechner-Prefix.pch";
+				INFOPLIST_FILE = "Laengenrechner/Laengenrechner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3B7F144157F489E004F3012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Laengenrechner/Laengenrechner-Prefix.pch";
+				INFOPLIST_FILE = "Laengenrechner/Laengenrechner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3B7F11E157F489D004F3012 /* Build configuration list for PBXProject "Laengenrechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B7F140157F489E004F3012 /* Debug */,
+				A3B7F141157F489E004F3012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B7F142157F489E004F3012 /* Build configuration list for PBXNativeTarget "Laengenrechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3B7F143157F489E004F3012 /* Debug */,
+				A3B7F144157F489E004F3012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3B7F11B157F489D004F3012 /* Project object */;
+}
